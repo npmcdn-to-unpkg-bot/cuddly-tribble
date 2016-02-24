@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "system",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "removeComments": false,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "exclude": [
+    "node_modules",
+    "jspm_packages"
+  ],
+  "filesGlob": [
+    "app/**/*.ts",
+    "./typings/**/*.ts"
+  ],
+  "files": [
+    "src/app.ts",
+    "src/components/newTodo.ts",
+    "src/components/todoList.ts",
+    "src/main.ts",
+    "src/models/games.ts",
+    "src/reducers/games.ts",
+    "src/seeds/games-seed.ts",
+    "src/seeds/tiles-seed.ts",
+    "src/todos.ts",
+    "./typings/immutable.d.ts",
+    "./typings/rx.all.d.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}
