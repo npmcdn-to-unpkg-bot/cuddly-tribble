@@ -3,7 +3,7 @@
   var test = require('tape');
   var algorithms = ['sha1', 'sha224', 'sha256', 'sha384', 'sha512', 'md5', 'rmd160'];
   var vectors = require('hash-test-vectors/hmac');
-  testLib('createHmac in crypto-browserify', require('../../crypto-browserify@3.11.0').createHmac);
+  testLib('createHmac in crypto-browserify', require('../index').createHmac);
   testLib('create-hmac/browser', require('create-hmac/browser'));
   function testLib(name, createHmac) {
     algorithms.forEach(function(alg) {

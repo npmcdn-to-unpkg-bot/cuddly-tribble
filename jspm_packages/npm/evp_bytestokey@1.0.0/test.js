@@ -1,6 +1,6 @@
 /* */ 
 var test = require('tape');
-var evp = require('../evp_bytestokey@1.0.0');
+var evp = require('./index');
 var crypto = require('crypto');
 function runTest(password) {
   test('password: ' + password, function(t) {

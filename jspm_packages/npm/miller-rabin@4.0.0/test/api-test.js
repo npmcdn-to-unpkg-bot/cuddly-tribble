@@ -1,6 +1,6 @@
 /* */ 
 var assert = require('assert');
-var mr = require('../../miller-rabin@4.0.0').create();
+var mr = require('../lib/mr').create();
 var bn = require('bn.js');
 describe('Miller-Rabin', function() {
   it('should test number for primality', function() {

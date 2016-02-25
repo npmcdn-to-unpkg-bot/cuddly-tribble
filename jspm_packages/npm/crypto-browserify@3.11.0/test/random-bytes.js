@@ -1,7 +1,7 @@
 /* */ 
 (function(Buffer) {
   var test = require('tape');
-  var crypto = require('../../crypto-browserify@3.11.0');
+  var crypto = require('../index');
   var randomBytesFunctions = {
     randomBytes: require('randombytes'),
     pseudoRandomBytes: crypto.pseudoRandomBytes

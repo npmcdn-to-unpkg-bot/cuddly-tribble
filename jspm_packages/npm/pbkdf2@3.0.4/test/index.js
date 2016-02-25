@@ -1,7 +1,7 @@
 /* */ 
 (function(Buffer) {
   var assert = require('assert');
-  var compatNode = require('../../pbkdf2@3.0.4');
+  var compatNode = require('../index');
   var compatBrowser = require('../browser');
   var fixtures = require('./fixtures.json!systemjs-json');
   function runTests(compat, name) {

@@ -1,6 +1,6 @@
 /* */ 
 var assert = require('assert');
-var hash = require('../../hash.js@1.0.3');
+var hash = require('../lib/hash');
 var utils = hash.utils;
 describe('Hmac', function() {
   describe('mixed test vector', function() {

@@ -12,24 +12,24 @@
   },
   "exclude": [
     "node_modules",
-    "jspm_packages"
+    "jspm_packages",
+    "typings/main.d.ts",
+    "typings/main"
   ],
   "filesGlob": [
     "app/**/*.ts",
-    "./typings/**/*.ts"
+    "typings/browser.d.ts"
   ],
   "files": [
-    "src/app.ts",
-    "src/components/newTodo.ts",
-    "src/components/todoList.ts",
-    "src/main.ts",
-    "src/models/games.ts",
-    "src/reducers/games.ts",
-    "src/seeds/games-seed.ts",
-    "src/seeds/tiles-seed.ts",
-    "src/todos.ts",
-    "./typings/immutable.d.ts",
-    "./typings/rx.all.d.ts"
+    "app/actions/actions.ts",
+    "app/actions/games.actions.ts",
+    "app/bootstrap.ts",
+    "app/game-app.ts",
+    "app/game/games.ts",
+    "app/reducers/games.ts",
+    "app/reducers/reducers.ts",
+    "app/reducers/visibility-filter.ts",
+    "typings/browser.d.ts"
   ],
   "atom": {
     "rewriteTsconfig": true

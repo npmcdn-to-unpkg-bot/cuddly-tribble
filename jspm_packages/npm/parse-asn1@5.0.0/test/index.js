@@ -1,7 +1,7 @@
 /* */ 
 var test = require('tape');
 var fs = require('fs');
-var parseKey = require('../../parse-asn1@5.0.0');
+var parseKey = require('../index');
 var crypto = require('crypto');
 var rsa1024 = {
   private: fs.readFileSync(__dirname + '/rsa.1024.priv'),

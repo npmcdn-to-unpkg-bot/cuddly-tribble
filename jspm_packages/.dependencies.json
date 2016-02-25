@@ -302,5 +302,6 @@
   },
   "npm:events@1.0.2": {},
   "github:google/material-design-lite@1.1.1": {},
-  "npm:immutable@3.7.6": {}
+  "npm:immutable@3.7.6": {},
+  "github:ngrx/store@core-refactor": {}
 }

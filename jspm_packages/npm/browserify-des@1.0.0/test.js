@@ -1,7 +1,7 @@
 /* */ 
 (function(Buffer) {
   var test = require('tape');
-  var DES = require('../browserify-des@1.0.0');
+  var DES = require('./index');
   var modes = require('./modes');
   var crypto = require('crypto');
   Object.keys(modes).forEach(function(mode) {

@@ -1,7 +1,7 @@
 /* */ 
 (function(Buffer) {
   var test = require('tape');
-  var CipherBase = require('../cipher-base@1.0.2');
+  var CipherBase = require('./index');
   var inherits = require('inherits');
   test('basic version', function(t) {
     inherits(Cipher, CipherBase);

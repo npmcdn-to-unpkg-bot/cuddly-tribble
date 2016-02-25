@@ -4,7 +4,7 @@
   var algorithms = ['sha1', 'sha224', 'sha256', 'sha384', 'sha512', 'md5', 'rmd160'];
   var encodings = ['hex', 'base64'];
   var vectors = require('hash-test-vectors');
-  testLib('createHash in crypto-browserify', require('../../crypto-browserify@3.11.0').createHash);
+  testLib('createHash in crypto-browserify', require('../index').createHash);
   testLib('create-hash/browser', require('create-hash/browser'));
   function testLib(name, createHash) {
     algorithms.forEach(function(algorithm) {

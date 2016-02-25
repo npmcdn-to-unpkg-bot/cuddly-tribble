@@ -1,1 +1,1 @@
-module.exports = require("npm:immutable@3.7.6/dist/immutable");
+module.exports = require("npm:immutable@3.7.6/dist/immutable.js");

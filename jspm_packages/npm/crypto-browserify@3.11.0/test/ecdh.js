@@ -1,7 +1,7 @@
 /* */ 
 var mods = ['secp256k1', 'secp224r1', 'prime256v1', 'prime192v1'];
 var test = require('tape');
-var _crypto = require('../../crypto-browserify@3.11.0');
+var _crypto = require('../index');
 var createECDH1 = _crypto.createECDH;
 var createECDH2 = require('create-ecdh/browser');
 mods.forEach(function(mod) {

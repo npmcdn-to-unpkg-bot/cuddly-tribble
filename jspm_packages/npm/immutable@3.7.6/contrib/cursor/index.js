@@ -1,5 +1,5 @@
 /* */ 
-var Immutable = require('../../../immutable@3.7.6');
+var Immutable = require('../../dist/immutable');
 var Iterable = Immutable.Iterable;
 var Iterator = Iterable.Iterator;
 var Seq = Immutable.Seq;

@@ -1,6 +1,6 @@
 /* */ 
 var assert = require('assert');
-var hash = require('../../hash.js@1.0.3');
+var hash = require('../lib/hash');
 describe('Hash', function() {
   function test(fn, cases) {
     for (var i = 0; i < cases.length; i++) {

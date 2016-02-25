@@ -4,7 +4,7 @@
   var assert = require('assert');
   var crypto = require('crypto');
   var Buffer = require('buffer').Buffer;
-  var des = require('../../des.js@1.0.0');
+  var des = require('../lib/des');
   var fixtures = require('./fixtures');
   var bin = fixtures.bin;
   describe('DES', function() {

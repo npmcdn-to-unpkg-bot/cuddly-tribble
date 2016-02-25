@@ -1,5 +1,5 @@
 /* */ 
-var isArray = require('../isarray@1.0.0');
+var isArray = require('./index');
 var test = require('tape');
 test('is array', function(t) {
   t.ok(isArray([]));

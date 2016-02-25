@@ -34,7 +34,7 @@
   });
   test('through crypto browserify works', function(t) {
     t.plan(2);
-    var crypto = require('../../crypto-browserify@3.11.0');
+    var crypto = require('../index');
     var cipher = 'aes-128-ctr';
     var data = randomBytes(562);
     var password = randomBytes(20);

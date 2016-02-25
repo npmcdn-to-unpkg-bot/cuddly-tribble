@@ -44,7 +44,7 @@
     },
     public: fs.readFileSync(__dirname + '/rsa.pass.pub')
   };
-  var nodeCrypto = require('../../public-encrypt@4.0.0');
+  var nodeCrypto = require('../index');
   var myCrypto = require('../browser');
   function _testIt(keys, message, t) {
     var pub = keys.public;

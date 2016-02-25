@@ -1,7 +1,7 @@
 /* */ 
 (function(Buffer) {
   var assert = require('assert');
-  var xor = require('../../buffer-xor@1.0.3');
+  var xor = require('../index');
   var xorInplace = require('../inplace');
   var fixtures = require('./fixtures.json!systemjs-json');
   describe('xor', function() {
